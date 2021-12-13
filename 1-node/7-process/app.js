@@ -23,3 +23,13 @@ process.nextTick(() => {
 for (let i = 0; i < 100; i++) {
     console.log('for loop')
 }
+
+/* result
+    for loop
+        .
+        .
+        .
+    for loop
+    nextTick
+    setTimeout
+*/
